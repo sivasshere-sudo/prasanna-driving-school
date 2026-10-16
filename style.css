@@ -121,4 +121,25 @@ header>a{color:var(--ink);text-decoration:none}
 @media (max-width:560px){
   header{flex-wrap:wrap;justify-content:center}
   nav a{padding:6px 11px;font-size:.85rem}
+   /* FIX 3D CAR VISIBILITY */
+.carwrap {
+    position: relative;
+    overflow: visible;
+}
+
+.stage {
+    position: relative;
+    perspective: 1100px;
+    overflow: visible;
+}
+
+.tilt {
+    transform-style: preserve-3d;
+}
+
+.car {
+    position: absolute;
+    transform-style: preserve-3d;
+    visibility: visible;
+    opacity: 1;}
 }
