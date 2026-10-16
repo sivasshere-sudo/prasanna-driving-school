@@ -142,4 +142,50 @@ header>a{color:var(--ink);text-decoration:none}
     transform-style: preserve-3d;
     visibility: visible;
     opacity: 1;}
+   /* MOBILE PERFORMANCE FIX */
+
+@media screen and (max-width:700px) {
+
+  html, body {
+    overflow-x:hidden;
+  }
+
+  .blob {
+    animation:none !important;
+    filter:blur(30px);
+    opacity:.5;
+  }
+
+  .glass,
+  nav,
+  .road {
+    backdrop-filter:none;
+    -webkit-backdrop-filter:none;
+  }
+
+  .car {
+    animation-duration:36s;
+  }
+
+  .fig-in {
+    animation-duration:36s;
+  }
+
+  h1.title {
+    filter:drop-shadow(0 2px 8px rgba(80,110,255,.4));
+  }
+
+  img {
+    max-width:100%;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .grid {
+    grid-template-columns:1fr;
+  }
+
+  header {
+    gap:10px;}
+}
 }
