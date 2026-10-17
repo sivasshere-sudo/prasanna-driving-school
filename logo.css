@@ -1,0 +1,13 @@
+/* Add this to your existing style.css file, or link logo.css in your HTML. */
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  max-width: 220px;
+}
+.site-logo img {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  object-fit: contain;
+}
