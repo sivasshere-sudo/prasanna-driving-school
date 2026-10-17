@@ -4,4 +4,4 @@ Add your images in this folder with these names:
   gallery1-1.jpeg ... gallery1-8.jpeg   - Gallery 1 page images
   gallery2-1.jpeg ... gallery2-8.jpeg   - Gallery 2 page images
 Optional: assets/fonts/  - your own title font (see css/style.css, top).
-Names of owner and trainer: edit index.html ("Owner Name", "Trainer Name").
+Names of owner and trainer: edit index.html ("PRASANNA", "MOORTHY").
